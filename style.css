@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+.pozadina_index {
+	background-image: url("Slike/01.png");
+}
+.pozadina_omeni {
+	background-color:#2C2929;
+}
+.font-face {
+    font-family: "MilaMasic";
+    src:url("MilaMasic.ttf");
+	color: whitesmoke;
+}
+p {
+	color: whitesmoke;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+}
+.p_vjezbe {
+	text-align: left;
+}
+h2 {
+	color: whitesmoke;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 25px;
+	font-weight: 1500;
+}
+.h2_omeni {
+	padding:20px;
+	font-family: "Montserrat", sans-serif; 
+	font-weight: 900;
+}
+.h2_video {
+	padding:20px;
+	font-family: "Montserrat", sans-serif; 
+	font-weight: 900;
+	text-align: center;
+}
+h1 {
+	font-size: 50px;
+}
+ul {
+	padding:50px; 
+	text-align: center;
+}
+.specijalni_ul {
+	padding:50px; 
+	text-align: left;
+}
+li {	
+	display:inline; 
+	background-color:#1E1B1B;
+	padding:30px;
+	border: 5px solid black;
+}
+li:active {background-color:red;}
+li a {	
+	color:white; 
+	font-family: "Montserrat", sans-serif; 
+	text-transform: uppercase;
+	font-weight: 900;
+}
+a:link {text-decoration:none;}
+a:hover {
+	background-color: red;
+}
+.novi_blok {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding:20px;
+	margin:20px;
+	text-align: center; 
+}
+.novi_blok2 {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding:10px;
+	line-height:10px;
+	text-align: center;
+}
+img {
+	height: 300px;
+}
+.podjela {
+	background-color: rgba(50, 0, 0, 0.7);
+	padding:10px;
+	line-height:10px;
+}
+.duge_slike {
+	height: 284px;
+}
+.paragraf_vjezbe {
+	padding:20px;
+	text-align: left;
+}
+.videov {
+	margin-left: 300px;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
